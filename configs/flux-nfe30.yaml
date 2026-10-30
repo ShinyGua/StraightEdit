@@ -1,0 +1,8 @@
+# Table 1, Ours, FLUX, 30 NFE (Tab/tab-main-results.tex:25)
+backbone: flux
+num_steps: 28        # 6_Appendix/6_appendix.tex:90 ("29-timestep grid": 28 steps, 29 points)
+kept_steps: 24       # 6_Appendix/6_appendix.tex:90
+guidance: [1.0, 5.0] # 6_Appendix/6_appendix.tex:89
+anchor_interval: 4   # 5_Exp/5_experiments.tex:33
+beta: 1.0            # 5_Exp/5_experiments.tex:33
+seed: 42

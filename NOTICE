@@ -1,0 +1,28 @@
+StraightEdit
+Copyright 2026 Xiyu Wang, Mengyu Zheng, Daochang Liu and Chang Xu
+
+This product includes software from the following projects.
+
+straightedit/bfl/
+  FLUX reference implementation, https://github.com/black-forest-labs/flux
+  Copyright Black Forest Labs. Apache License 2.0.
+  Taken from the copies in RF-Solver-Edit, https://github.com/wangjiangshan0725/RF-Solver-Edit
+  (Apache License 2.0), and FireFlow,
+  https://github.com/HolmesShuan/FireFlow-Fast-Inversion-of-Rectified-Flow-for-Image-Semantic-Editing
+  (Apache License 2.0). Changes: attention-feature caching removed; the autoencoder encodes with the
+  posterior mean, as in RF-Solver-Edit; package imports renamed.
+
+straightedit/reflow.py
+  Model loading, schedule and latent packing from the same projects.
+
+straightedit/flux.py
+  Adapted from FluxPipeline in diffusers, https://github.com/huggingface/diffusers
+  Copyright 2025 Black Forest Labs and The HuggingFace Team. Apache License 2.0.
+
+straightedit/sampler.py
+  The inversion-free coupling follows FlowEdit, https://github.com/fallenshock/FlowEdit
+  Copyright (c) 2024 Vladimir Kulikov. MIT License.
+  The full copyright and permission notice is in LICENSES/FlowEdit-MIT.txt.
+
+The FLUX.1 [dev] weights are distributed by Black Forest Labs under the FLUX.1 [dev]
+Non-Commercial License, https://huggingface.co/black-forest-labs/FLUX.1-dev

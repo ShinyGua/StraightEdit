@@ -1,0 +1,8 @@
+# Table 1, Ours, ReFlow, 18 NFE (Tab/tab-main-results.tex:33)
+backbone: reflow
+num_steps: 17        # 6_Appendix/6_appendix.tex:100 ("17-timestep grid": 17 steps, 18 points)
+kept_steps: 14       # 6_Appendix/6_appendix.tex:100
+guidance: [1.5, 5.5] # 6_Appendix/6_appendix.tex:89
+anchor_interval: 4   # 6_Appendix/6_appendix.tex:100
+beta: 1.0            # 5_Exp/5_experiments.tex:33
+seed: 1228
